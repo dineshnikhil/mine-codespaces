@@ -1,0 +1,20 @@
+.info_div {
+	background-color: var(--secondary_color);
+	/* width: 100%; */
+
+	margin: 5% 0%;
+	padding: 10% 15%;
+	text-align: center;
+}
+
+.info_div h1 {
+	font-size: 3rem;
+    margin-top: 0;
+}
+
+.info_div h3 {
+	font-size: 1.2rem;
+	width: 50%;
+    margin: 0 auto;
+    margin-bottom: 0;
+}

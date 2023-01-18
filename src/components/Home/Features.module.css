@@ -1,0 +1,14 @@
+.features_div {
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.features_div h1 {
+    margin-bottom: 5%;
+}
+
+.features_showcase_div {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+}

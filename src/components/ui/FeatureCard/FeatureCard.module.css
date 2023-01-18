@@ -1,0 +1,29 @@
+.feature_card {
+	padding: 3%;
+	width: 23%;
+
+	background-color: var(--secondary_color);
+	border-radius: 10px;
+}
+
+.feature_card:hover {
+	cursor: pointer;
+}
+
+.feature_card img {
+	width: 80%;
+	height: auto;
+	display: block;
+	margin: 0 auto;
+
+	transition: 0.3s ease-in-out;
+}
+
+.feature_card:hover .feature_img {
+	transform: scale(1.2);
+}
+
+.feature_card h3 {
+	font-size: 1.5rem;
+	color: var(--primary_color);
+}

@@ -1,0 +1,31 @@
+.intro_div {
+	display: flex;
+	justify-content: space-around;
+
+	padding: 7% 15%;
+    /* border: solid 1px black; */
+}
+
+.intro_div div {
+	width: 40%;
+    /* border: solid 1px black;n */
+}
+
+.intro_div div h2 {
+    font-size: 3rem;
+}
+
+.intro_div div img {
+    width: 90%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.intro_div div:nth-child(1) {
+    padding-top: 6%;
+}
+
+.intro_div div:nth-child(2) {
+    padding: 4%;
+}

@@ -1,0 +1,17 @@
+.custom_btn {
+	background-color: var(--primary_color);
+	color: var(--font_color);
+	font-size: 1rem;
+	font-weight: bold;
+
+	border: none;
+	border-radius: 10px;
+	padding: 2.3%;
+	width: 30%;
+	height: fit-content;
+	margin-top: 3%;
+}
+
+.custom_btn:hover {
+	cursor: pointer;
+}
