@@ -27,3 +27,17 @@
 	font-size: 1.5rem;
 	color: var(--primary_color);
 }
+
+
+@media (min-width: 320px) and (max-width: 425px) {
+	.feature_card {
+		width: 90%;
+		margin-top: 15%;
+		padding: 10%;
+	}
+
+	.feature_card h3 {
+		font-size: 1.3rem;
+		color: var(--primary_color);
+	}
+}

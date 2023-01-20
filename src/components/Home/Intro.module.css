@@ -3,29 +3,49 @@
 	justify-content: space-around;
 
 	padding: 7% 15%;
-    /* border: solid 1px black; */
+	/* border: solid 1px black; */
 }
 
 .intro_div div {
 	width: 40%;
-    /* border: solid 1px black;n */
+	/* border: solid 1px black;n */
 }
 
 .intro_div div h2 {
-    font-size: 3rem;
+	font-size: 3rem;
 }
 
 .intro_div div img {
-    width: 90%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
+	width: 90%;
+	height: auto;
+	display: block;
+	margin: 0 auto;
 }
 
 .intro_div div:nth-child(1) {
-    padding-top: 6%;
+	padding-top: 6%;
 }
 
 .intro_div div:nth-child(2) {
-    padding: 4%;
+	padding: 4%;
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+	.intro_div {
+		display: block;
+		padding: 10%;
+	}
+
+	.intro_div div {
+		width: 90%;
+	}
+
+	.intro_div div h2 {
+		font-size: 1.6rem;
+	}
+
+	.intro_div div img {
+		width: 100%;
+		height: auto;
+	}
 }

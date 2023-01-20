@@ -11,7 +11,7 @@ function Intro() {
             <Button content="sign up" />
         </div>
         <div>
-            <img src={manage_money} alt="" />
+            <img src={manage_money} alt="money gif" />
         </div>
     </div>
   )

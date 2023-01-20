@@ -12,3 +12,13 @@
     justify-content: space-around;
     flex-wrap: nowrap;
 }
+
+@media (min-width: 320px) and (max-width: 425px) {
+    .features_showcase_div {
+        display: block;
+    }
+
+    .features_div h1 {
+        font-size: 1.5rem;
+    }
+}

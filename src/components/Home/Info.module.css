@@ -18,3 +18,24 @@
     margin: 0 auto;
     margin-bottom: 0;
 }
+
+@media (min-width: 320px) and (max-width: 425px) {
+
+	.info_div {
+		background-color: var(--secondary_color);
+	
+		margin: 5% 0%;
+		padding: 10% 10%;
+		text-align: center;
+	}
+
+	.info_div h1 {
+		font-size: 2rem;
+	}
+
+	.info_div h3 {
+		font-size: 1rem;
+		width: 70%;
+		font-weight: bold;
+	}
+}
