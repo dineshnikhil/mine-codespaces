@@ -17,6 +17,7 @@
 	margin: 0 auto;
 
 	transition: 0.3s ease-in-out;
+	z-index: 1;
 }
 
 .feature_card:hover .feature_img {
@@ -27,7 +28,6 @@
 	font-size: 1.5rem;
 	color: var(--primary_color);
 }
-
 
 @media (min-width: 320px) and (max-width: 425px) {
 	.feature_card {
