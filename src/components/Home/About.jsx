@@ -15,7 +15,7 @@ function About() {
 					Get a full view so you know where to save. Track spending, detect
 					fraud, and keep tabs on rising subscription costs.
 				</p>
-				<Button content="sign up" />
+				<Button buttonType="default">LOGIN</Button>
 			</div>
 		</div>
 	);

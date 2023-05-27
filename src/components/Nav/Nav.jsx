@@ -7,11 +7,13 @@ function Nav() {
 	return (
 		<nav className={classes.nav}>
 			<div>
-				<h2>Mine</h2>
+				<Link to="/">
+					<h2>Mine</h2>
+				</Link>
 			</div>
 			<div>
 				<Link to="/signin">
-					<Button content="SIGN IN" />
+					<Button buttonType="nav">Login</Button>
 				</Link>
 			</div>
 		</nav>

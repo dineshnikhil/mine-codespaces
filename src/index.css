@@ -1,23 +1,61 @@
 :root {
-  --bg_color: #112B3C;
-  --font_color: #EFEFEF;
-  --secondary_color: #205375;
-  --primary_color: #F66B0E;
+	--bg_color: #112b3c;
+	--font_color: #efefef;
+	--secondary_color: #205375;
+	--primary_color: #f66b0e;
 }
 
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+		'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+		sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 
-  background-color: var(--bg_color);
-  color: var(--font_color);
+	background-color: var(--bg_color);
+	color: var(--font_color);
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+		monospace;
+}
+
+.default_button {
+	background-color: var(--primary_color);
+	width: 18vw;
+	font-weight: bold;
+	font-size: 1.2rem;
+
+	margin: 3% 0;
+	padding: 1rem 0;
+	border: none;
+	border-radius: 0.5rem;
+	transition: 0.3s ease-in-out;
+}
+
+.default_button:hover {
+	cursor: pointer;
+	background-color: #ff6600;
+	transform: scale(1.05);
+}
+
+.nav_button {
+	background-color: var(--primary_color);
+	width: 10vw;
+	font-weight: bold;
+	font-size: 1.2rem;
+
+	margin-top: 10%;
+	padding: 0.6rem 0;
+	border: none;
+	border-radius: 0.5rem;
+	transition: 0.3s ease-in-out;
+}
+
+.nav_button:hover {
+	cursor: pointer;
+	background-color: #ff6600;
+	transform: scale(1.05);
 }

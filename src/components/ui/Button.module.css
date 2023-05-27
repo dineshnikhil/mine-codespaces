@@ -1,17 +1,22 @@
-.custom_btn {
+.default_button {
 	background-color: var(--primary_color);
-	color: var(--font_color);
-	font-size: 1rem;
+	width: 18vw;
 	font-weight: bold;
+	font-size: 1.2rem;
 
+	margin: 3% 0;
+	padding: 1rem 0;
 	border: none;
-	border-radius: 10px;
-	padding: 2.3%;
-	width: 30%;
-	height: fit-content;
-	margin-top: 3%;
+	border-radius: 0.5rem;
+	transition: 0.3s ease-in-out;
 }
 
-.custom_btn:hover {
+.default_button:hover {
 	cursor: pointer;
+	background-color: #ff6600;
+	transform: scale(1.05);
+}
+
+.nav_button {
+	width: 10vw;
 }

@@ -1,0 +1,45 @@
+.singin_div {
+	padding: 7% 15%;
+
+	display: flex;
+	justify-content: space-between;
+}
+
+.singin_div div {
+	/* width: 100%; */
+}
+
+.singin_div div img {
+	width: 90%;
+	height: auto;
+	display: block;
+	margin: 0 auto;
+}
+
+.form_card {
+	background-color: var(--secondary_color);
+	border-radius: 2rem;
+	padding: 3% 6%;
+	width: 25vw;
+}
+
+.form_actual_div {
+	text-align: center;
+}
+
+.form_icon {
+	color: var(--primary_color);
+	/* padding: 1%; */
+	margin-right: 3%;
+}
+
+.form_actual_div button {
+	width: 21vw;
+	padding: 3% 6%;
+	font-size: 1.2rem;
+	margin-top: 3%;
+
+	background-color: var(--primary_color);
+	border: none;
+	border-radius: 0.5rem;
+}
